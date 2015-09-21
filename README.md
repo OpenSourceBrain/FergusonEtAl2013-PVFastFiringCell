@@ -1,4 +1,4 @@
-# FergusonEtAl2013-PVFastFiringCell
+### Ferguson el al. 2013: PV+ fast-firing cell
 
 This two-variable simple model is derived based on patch-clamp recordings from the CA1 region of a whole hippocampus preparation of PV+ fast-firing cells. Since basket cells, axo-axonic cells and bistratified cells can be PV+ and fast-firing, this model could be representative of these cell types. 
 
