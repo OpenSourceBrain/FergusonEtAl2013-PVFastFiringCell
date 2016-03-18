@@ -1,6 +1,6 @@
 '''
 PV cell model
-@author: Ferguson et al. (2013) Front. Comput. Neurosci. 
+@author: Ferguson et al. (2013) Front. Comput. Neurosci.
 '''
 from brian import *
 
@@ -38,7 +38,8 @@ PV = NeuronGroup(N, model=pv_eqs, reset ="v = c; u += d" , threshold="v>=vpeak")
 PV.Iext = mean_Iapp*pA
 
 # set initial conditions for each neuron
-PV.v = rand(len(PV)) * 0.01 -0.065
+# PV.v = rand(len(PV)) * 0.01 -0.065  # Removing random init in single cell case
+PV.v = -0.065
 
 # record all spike times for the neuron group
 PV_v = StateMonitor(PV, 'v', record=True)
