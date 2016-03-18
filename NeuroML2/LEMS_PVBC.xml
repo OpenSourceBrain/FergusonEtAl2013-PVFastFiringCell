@@ -1,0 +1,37 @@
+<Lems>
+
+<!-- Specify which component to run -->
+<Target component="sim1"/>
+
+<!-- Include core NeuroML2 ComponentType definitions -->
+<Include file="Cells.xml"/>
+<Include file="Networks.xml"/>
+<Include file="Simulation.xml"/>
+
+<Include file="IzhikevichFerguson.xml"/>
+
+<izhikevichFergusonCell id="PVBC" v0 = "-65mV" C="90 pF" vr = "-60.6 mV"
+                        vpeak = "2.5 mV" c = "-70 mV" klow = "1.7 nS_per_mV" khigh = "14 nS_per_mV"
+                        a = "0.1 per_ms" d = "0.1 pA" vt = "-43.1 mV" b = "-0.1 nS"/>
+
+<pulseGenerator id="weakIext" delay="0ms" duration="1000ms" amplitude="150 pA"/>
+
+<network id="net1">
+    <population id="PVBCs" component="PVBC" size="1"/>
+    <explicitInput target="PVBCs[0]" input="weakIext" destination="synapses"/>   
+</network>
+<!-- End of NeuroML2 content -->
+
+<Simulation id="sim1" length="1000ms" step="0.02ms" target="net1">
+
+    <Display id="d1" title="PV+ basket cell model with 150 pA input" timeScale="1ms" xmin="-50" xmax="1050" ymin="-70" ymax="10">
+        <Line id="pvbc v" quantity="PVBCs[0]/v" scale="1mV" color="#0000ff" timeScale="1ms"/>
+    </Display>
+    
+    <OutputFile id="of" fileName="LEMS_PVBC.dat">
+        <OutputColumn id="bc" quantity="PVBCs[0]/v"/>
+    </OutputFile>
+      
+</Simulation>
+
+</Lems>
