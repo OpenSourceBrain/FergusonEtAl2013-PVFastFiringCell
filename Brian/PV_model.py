@@ -50,11 +50,13 @@ net = Network(PV,PV_v)
 net.run(duration)
 
 #### make plot of membrane potential ####
-plot(PV_v.times, PV_v[0]/mV)
-xlabel("Time (s)")
-ylabel("Membrane Potential (mV)")
-title('PV cell model with %d pA input'%(mean_Iapp))
-show()
+import sys
+if not '-nogui' in sys.argv:
+    plot(PV_v.times, PV_v[0]/mV)
+    xlabel("Time (s)")
+    ylabel("Membrane Potential (mV)")
+    title('PV cell model with %d pA input'%(mean_Iapp))
+    show()
 
 #### save trace to file ####
 save=True
