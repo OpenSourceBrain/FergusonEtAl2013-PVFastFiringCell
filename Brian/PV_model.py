@@ -4,7 +4,7 @@ PV cell model
 '''
 from brian import *
 
-defaultclock.dt = 0.02*ms
+defaultclock.dt = 0.001*ms
 
 # PV cell parameters
 C = 90 * pF

@@ -9,7 +9,7 @@ This two-variable simple model is derived based on patch-clamp recordings from t
 
 This model was originally developed in the [Brian simulator](http://briansimulator.org/):
 
-![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/blob/master/Brian/PV%2BBC.png)
+![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/blob/master/Brian/PVBBC.png)
 
 More details on Brian version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/tree/master/Brian).
 
