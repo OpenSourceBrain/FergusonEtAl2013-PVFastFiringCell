@@ -17,6 +17,8 @@ More details on Brian version of this model [here](https://github.com/OpenSource
 
 The model has been converted to NeuroML2/LEMS:
 
+![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/master/NeuroML2/PVBC.png)
+
 More details on the NeuroML2/LEMS version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/tree/master/NeuroML2).
 
 [![Build Status](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell)
