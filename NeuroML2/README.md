@@ -17,6 +17,8 @@ A LEMS file ([LEMS_PVBC.xml](https://github.com/OpenSourceBrain/FergusonEtAl2013
                         a = "0.1 per_ms" d = "0.1 pA" vt = "-43.1 mV" b = "-0.1 nS"/>
                             
 applies currents as specified in the Python scripts and runs a simulation with the cells:
+
+![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/master/NeuroML2/PVBC.png)
   
 This model can be run locally using [jNeuroML](https://github.com/NeuroML/jNeuroML):
   
