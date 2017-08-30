@@ -14,4 +14,4 @@ experiments:
         spike detection: 
           method: threshold
           threshold: -20
-        tolerance: 0.0296386366227  # Precise agreement when dt=0.02
+        tolerance: 0.0  # Precise agreement when dt=0.02
