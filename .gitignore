@@ -4,3 +4,4 @@ NeuroML2/*nrn.py
 Brian/*.dat
 x86_64
 *~
+/NeuroML2/LEMS_PVBC_brian2.py
