@@ -5,3 +5,8 @@ Brian/*.dat
 x86_64
 *~
 /NeuroML2/LEMS_PVBC_brian2.py
+/NeuroML2/*_pynn.py
+/NeuroML2/*.json
+*.pyc
+/NeuroML2/PVBC_celldefinition.py
+/NeuroML2/weakIext_inputdefinition.py
