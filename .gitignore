@@ -10,3 +10,4 @@ x86_64
 *.pyc
 /NeuroML2/PVBC_celldefinition.py
 /NeuroML2/weakIext_inputdefinition.py
+/Brian2/PV.v.dat

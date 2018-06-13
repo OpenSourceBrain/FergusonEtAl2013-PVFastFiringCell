@@ -1,0 +1,17 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation 
+
+target: PV_model.py
+engine: Brian2
+mep: ../Brian/.test.mep
+experiments:
+  pvbc:
+    observables:
+      spike times:
+        file: 
+          path: PV.v.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -20
+        tolerance: 0.027831337527907483
