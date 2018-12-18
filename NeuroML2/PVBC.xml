@@ -1,0 +1,9 @@
+<Lems>
+
+    <Include file="IzhikevichFerguson.xml"/>
+
+    <izhikevichFergusonCell id="PVBC" v0 = "-65mV" C="90 pF" vr = "-60.6 mV"
+                            vpeak = "2.5 mV" c = "-70 mV" klow = "1.7 nS_per_mV" khigh = "14 nS_per_mV"
+                            a = "0.1 per_ms" d = "0.1 pA" vt = "-43.1 mV" b = "-0.1 nS"/>
+
+</Lems>

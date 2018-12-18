@@ -1,0 +1,16 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  
+         xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" 
+         id="PVBCnet">
+    
+    <include href="PVBC.xml"/>
+    
+    <pulseGenerator id="weakIext" delay="0ms" duration="1000ms" amplitude="150 pA"/>
+
+    <network id="net1">
+        <population id="PVBCs" component="PVBC" size="1"/>
+        <explicitInput target="PVBCs[0]" input="weakIext" destination="synapses"/>   
+    </network>
+
+</neuroml>

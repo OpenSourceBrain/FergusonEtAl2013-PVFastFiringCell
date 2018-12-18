@@ -8,19 +8,7 @@
 <Include file="Networks.xml"/>
 <Include file="Simulation.xml"/>
 
-<Include file="IzhikevichFerguson.xml"/>
-
-<izhikevichFergusonCell id="PVBC" v0 = "-65mV" C="90 pF" vr = "-60.6 mV"
-                        vpeak = "2.5 mV" c = "-70 mV" klow = "1.7 nS_per_mV" khigh = "14 nS_per_mV"
-                        a = "0.1 per_ms" d = "0.1 pA" vt = "-43.1 mV" b = "-0.1 nS"/>
-
-<pulseGenerator id="weakIext" delay="0ms" duration="1000ms" amplitude="150 pA"/>
-
-<network id="net1">
-    <population id="PVBCs" component="PVBC" size="1"/>
-    <explicitInput target="PVBCs[0]" input="weakIext" destination="synapses"/>   
-</network>
-<!-- End of NeuroML2 content -->
+<Include file="PVBCnet.net.nml"/>
 
 <Simulation id="sim1" length="1000ms" step="0.001ms" target="net1">
 
