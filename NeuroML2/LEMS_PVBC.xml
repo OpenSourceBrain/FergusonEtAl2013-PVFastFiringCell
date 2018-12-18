@@ -13,11 +13,11 @@
 <Simulation id="sim1" length="1000ms" step="0.001ms" target="net1">
 
     <Display id="d1" title="PV+ basket cell model with 150 pA input" timeScale="1ms" xmin="-50" xmax="1050" ymin="-70" ymax="10">
-        <Line id="pvbc v" quantity="PVBCs[0]/v" scale="1mV" color="#0000ff" timeScale="1ms"/>
+        <Line id="pvbc v" quantity="PVBCs/0/PVBC/v" scale="1mV" color="#0000ff" timeScale="1ms"/>
     </Display>
     
     <OutputFile id="of" fileName="LEMS_PVBC.dat">
-        <OutputColumn id="bc" quantity="PVBCs[0]/v"/>
+        <OutputColumn id="bc" quantity="PVBCs/0/PVBC/v"/>
     </OutputFile>
       
 </Simulation>

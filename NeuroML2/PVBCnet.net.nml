@@ -18,7 +18,7 @@
         </population>
         
         
-        <explicitInput target="PVBCs[0]" input="weakIext" destination="synapses"/>   
+        <explicitInput target="PVBCs/0/PVBC" input="weakIext" destination="synapses"/>   
     </network>
 
 </neuroml>
