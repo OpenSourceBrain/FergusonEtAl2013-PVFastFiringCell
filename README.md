@@ -22,3 +22,9 @@ The model has been converted to NeuroML2/LEMS:
 More details on the NeuroML2/LEMS version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/tree/master/NeuroML2).
 
 [![Build Status](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell)
+
+[![DOI](https://www.zenodo.org/badge/42884108.svg)](https://www.zenodo.org/badge/latestdoi/42884108)
+
+### Reusing this model
+
+The code in this repository is provided under the terms of the [software license](LICENSE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
