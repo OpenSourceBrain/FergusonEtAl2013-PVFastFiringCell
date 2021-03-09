@@ -27,6 +27,7 @@ env:
 
 
 install: 
+    - pip install numpy scipy matplotlib # Why is this needed? Scipy doesn't seem to get installed correctly on trusty with addons above...
     - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
 
 script:
