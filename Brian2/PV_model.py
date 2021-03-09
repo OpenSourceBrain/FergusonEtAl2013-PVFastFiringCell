@@ -26,7 +26,7 @@ time = 0
 # cell eqns
 pv_eqs = """
 Iext  : amp
-k=(v<vt)*klow+(v>=vt)*khigh : siemens/volt
+k=int(v<vt)*klow+int(v>=vt)*khigh : siemens/volt
 du/dt = a*(b*(v-vr)-u)            : amp
 dv/dt = (k*(v-vr)*(v-vt)+Iext -u)/C : volt
 """
