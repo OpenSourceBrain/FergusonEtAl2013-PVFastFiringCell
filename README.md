@@ -1,5 +1,8 @@
 ### Ferguson el al. 2013: PV+ fast-firing cell
 
+[![Continuous build using OMV](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/actions/workflows/omv-ci.yml/badge.svg)](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/actions/workflows/omv-ci.yml) 
+[![DOI](https://www.zenodo.org/badge/42884108.svg)](https://www.zenodo.org/badge/latestdoi/42884108)
+
 Reference:
 1 . Ferguson KA, Huh CY, Amilhon B, Williams S, Skinner FK (2013) Experimentally constrained CA1 fast-firing parvalbumin-positive interneuron network models exhibit sharp transitions into coherent high frequency rhythms. [Front Comput Neurosci 7:144](http://journal.frontiersin.org/article/10.3389/fncom.2013.00144/abstract)
 
@@ -21,9 +24,6 @@ The model has been converted to NeuroML2/LEMS:
 
 More details on the NeuroML2/LEMS version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell/tree/master/NeuroML2).
 
-[![Build Status](https://travis-ci.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell.svg?branch=master)](https://travis-ci.com/OpenSourceBrain/FergusonEtAl2013-PVFastFiringCell)
-
-[![DOI](https://www.zenodo.org/badge/42884108.svg)](https://www.zenodo.org/badge/latestdoi/42884108)
 
 ### Reusing this model
 
